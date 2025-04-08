@@ -12,11 +12,11 @@ document.addEventListener('keydown', () => {
 
 function generatePipes() {
   const pipeTop = document.createElement('img');
-  pipeTop.src = 'images/pipe-top.png';
+  pipeTop.src = 'assets/pipe-top.png';
   pipeTop.classList.add('pipe', 'pipe-top');
 
   const pipeBottom = document.createElement('img');
-  pipeBottom.src = 'images/pipe-bottom.png';
+  pipeBottom.src = 'assets/pipe-bottom.png';
   pipeBottom.classList.add('pipe', 'pipe-bottom');
 
   let gap = 150;
